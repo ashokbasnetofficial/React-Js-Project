@@ -1,10 +1,14 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Footer from './Footer/Footer';
+import Form from './Form/InputField/Form';
+import Header from './Header/Header';
 const App =()=>{
-  return (
+  return(
     <>
-    <h1>Hell my friend this is a first react app!</h1>
+     <Header/>
+    <Form />
+    <Footer />
     </>
   );
 }
