@@ -428,7 +428,7 @@ const bank_details = [
     type: "select",
     disabled: false,
     label: "Account Type",
-    value:[
+    value: [
       "Current Account",
       "Saving Account",
       "Fixed Deposit Account",
@@ -438,7 +438,7 @@ const bank_details = [
       "Loan Account",
       "Remmitance Account",
       "Salary Account"
-      
+
       // Add more account types here as needed
     ],
     required: "*"
@@ -451,10 +451,43 @@ const bank_details = [
     label: "Account Number ",
     required: "*"
   },
+];
+const upload_field = [
+  {
+    key: 1,
+    type: "file",
+    name: "ppnumber",
+    label: "Passport Size Photo ",
+    required: "*"
+  },
+  {
+    key: 2,
+    type: "file",
+    name: "cphoto",
+    label: "Citizenship Frontside",
+    required: "*"
+  },
+  {
+    key: 3,
+    type: "file",
+    name: "cphoto",
+    label: "Citizenship Backside",
+    required: "*"
+  },
+  {
+    key: 4,
+    type: "file",
+    name: "signature",
+    label: "Signature",
+    required: "*"
+  },
 ]
 const Form = () => {
   return (
-    <div className="container">
+    <div
+      className="container bg-light py-3 px-3 my-4 "
+      style={{ borderRadius: '10px' }}
+    >
       <form action="" autocomplete="off">
         <div className="form-group ">
           <div className="form_title">
@@ -583,7 +616,58 @@ const Form = () => {
                 </div>
               </div>
             </div>
+            <div className="upload-info mt-4">
+              <div className="title">
+                <h4>Upload</h4>
+                <hr />
+                <div className="row">
+                  {
+                    upload_field.map((data) => {
+                      if (data.name === 'cphoto') {
+                        return <div className='col-6 mt-3 mb-3'>
 
+                          <InputField
+                            type={data.type}
+                            name={data.name}
+                            label={data.label}
+                            class="form-control"
+                            required={data.required}
+                          />
+                        </div>
+                      }
+                      else {
+                        return <div className='col-8 mt-3 mb-3'>
+
+                          <InputField
+                            type={data.type}
+                            name={data.name}
+                            label={data.label}
+                            class="form-control"
+                            required={data.required}
+                          />
+                        </div>
+
+                      }
+                    })
+                  }
+                </div>
+              </div>
+            </div>
+            <div className="submit">
+              <div className="row mt-5 mb-3">
+                <hr />
+                <div className="col-5">
+
+                  <InputField
+                    type='submit'
+                    name="submit"
+                    class="btn btn-dark"
+                    value="Submit"
+
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </form>
