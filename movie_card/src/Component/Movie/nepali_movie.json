@@ -1,0 +1,38 @@
+[
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzFhYzc4MjQtMTk1Ny00OGM5LWE4MzQtNzI5MDhlOWQ2YjVlXkEyXkFqcGdeQXVyMjMxODk2ODA@.jpg",
+      "title": "Jatrai Jatra",
+      "rating": 8.0,
+      "release_date": "2019-09-06",
+      "duration": "2h 1min"
+    },
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzhlYjUzYzYtMDQ3ZS00OTMzLWJkOTctZTczNzg1YmM1ODJjXkEyXkFqcGdeQXVyMTA2MDQ2MTAy._V1_.jpg",
+      "title": "Pashupati Prasad",
+      "rating": 8.1,
+      "release_date": "2016-01-29",
+      "duration": "2h 15min"
+    },
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmEwMjM2NTYtZjMzZi00NmZmLWIyMjgtMGE1YjA1YzY1YTYwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "title": "Kabaddi",
+      "rating": 7.5,
+      "release_date": "2013-11-01",
+      "duration": "2h 15min"
+    },
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NzM1NjA3Ml5BMl5BanBnXkFtZTcwMjU4NjU4Mw@@._V1_.jpg",
+      "title": "Chhakka Panja",
+      "rating": 7.2,
+      "release_date": "2016-09-09",
+      "duration": "2h 15min"
+    },
+    {
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjM4NDAyOTU3N15BMl5BanBnXkFtZTgwMDk4MDA5NDE@.jpg",
+      "title": "Jhola",
+      "rating": 7.2,
+      "release_date": "2014-12-05",
+      "duration": "2h 18min"
+    }
+  ]
+  
