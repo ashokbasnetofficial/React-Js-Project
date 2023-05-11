@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Js-Project/simplekycform/static/css/main.359569ee.css",
+    "main.js": "/React-Js-Project/simplekycform/static/js/main.7e31ac2b.js",
+    "static/js/787.b701888c.chunk.js": "/React-Js-Project/simplekycform/static/js/787.b701888c.chunk.js",
+    "index.html": "/React-Js-Project/simplekycform/index.html",
+    "main.359569ee.css.map": "/React-Js-Project/simplekycform/static/css/main.359569ee.css.map",
+    "main.7e31ac2b.js.map": "/React-Js-Project/simplekycform/static/js/main.7e31ac2b.js.map",
+    "787.b701888c.chunk.js.map": "/React-Js-Project/simplekycform/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.359569ee.css",
+    "static/js/main.7e31ac2b.js"
+  ]
+}
