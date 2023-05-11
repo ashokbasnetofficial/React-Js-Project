@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Js-Project/Facebook%20Login/static/css/main.78a25e4f.css",
-    "main.js": "/React-Js-Project/Facebook%20Login/static/js/main.01a3dedd.js",
-    "index.html": "/React-Js-Project/Facebook%20Login/index.html",
-    "main.78a25e4f.css.map": "/React-Js-Project/Facebook%20Login/static/css/main.78a25e4f.css.map",
-    "main.01a3dedd.js.map": "/React-Js-Project/Facebook%20Login/static/js/main.01a3dedd.js.map"
+    "main.css": "/React-Js-Project/simplekycform/static/css/main.359569ee.css",
+    "main.js": "/React-Js-Project/simplekycform/static/js/main.7e31ac2b.js",
+    "static/js/787.b701888c.chunk.js": "/React-Js-Project/simplekycform/static/js/787.b701888c.chunk.js",
+    "index.html": "/React-Js-Project/simplekycform/index.html",
+    "main.359569ee.css.map": "/React-Js-Project/simplekycform/static/css/main.359569ee.css.map",
+    "main.7e31ac2b.js.map": "/React-Js-Project/simplekycform/static/js/main.7e31ac2b.js.map",
+    "787.b701888c.chunk.js.map": "/React-Js-Project/simplekycform/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78a25e4f.css",
-    "static/js/main.01a3dedd.js"
+    "static/css/main.359569ee.css",
+    "static/js/main.7e31ac2b.js"
   ]
 }
